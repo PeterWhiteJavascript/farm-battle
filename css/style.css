@@ -1,0 +1,93 @@
+html, body{
+    width:100%;
+    height:100%;   
+    margin:0;
+    padding:0;
+}
+body{
+    overflow:hidden;
+}
+#main-content{
+    width:100%;
+    height:100%;
+    background-color:black;
+    font-size:1.2vw;
+}
+#content-container, #background-container{
+    width:100%;
+    height:100%;
+    /*position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+}
+#main-container{
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0;
+    pointer-events: none;
+}
+#main-container div{
+    pointer-events:auto;
+}
+#background-container{
+    background-image: url("../images/loading-screen.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+/* Loading Start*/
+#loading-bar{
+    position:fixed;
+    width:100%;
+    height:100%;
+}
+
+#bar-cont{
+    position:absolute;
+    width:250px;
+    height:100px;
+    left:calc(50% - 125px);
+    top:calc(50% - 50px);
+}
+#bar-bottom{
+    width:100%;
+    height:100%;
+    background-color:red;
+}
+#bar-text{
+    width:100%;
+    height:100%;
+    position:absolute;
+    text-align:center;
+    top:0;
+}
+#bar-top{
+    position:absolute;
+    top:0px;
+    width:1px;
+    height:100%;
+    background-color:lightblue;
+}
+
+/* Menus */
+/*
+#worker-menu{
+    width:25%;
+    height:25%;
+    right:0;
+    top:0;
+    position: absolute;
+}
+
+.standard-menu{
+    background-color:tan;
+    border-radius: 5px;
+}
+.title-text{
+    width:100%;
+    font-size:20px;
+    text-align:center;
+    font-family: "Consolas";
+}*/

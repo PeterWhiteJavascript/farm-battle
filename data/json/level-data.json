@@ -1,0 +1,17 @@
+{
+    "levels": [
+        {
+            "name": "beginning",
+            "crops": ["Cucumber", "Cabbage", "Potato", "Tomato"],
+            "weather": ["Sun", "Rain", "Clouds", "Sun", "Rain", "Clouds", "Sun", "Storm", "Sun", "Rain", "Clouds", "Sun"],
+            "money": 500,
+            "goal": 1000,
+            "classes": ["Peasant", "Farmer", "Soldier"],
+            "map": "maps/level_1-1.tmx",
+            "homes": [[13, 6]],
+            "plants":[
+                
+            ]
+        }
+    ]
+}

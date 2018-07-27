@@ -1,0 +1,188 @@
+{
+    "weather":{
+        "Sun":{
+            "sun": 2
+        },
+        "Clouds":{
+            "sun": 1
+        },
+        "Rain":{
+            "water": 1
+        },
+        "Storm":{
+            "water": 2
+        }
+    },
+    "groups":{
+        "allrounder":{
+            "actions":["Till", "Plant", "Water", "Attack"]
+        },
+        "farmer":{
+            "actions":["Till", "Plant", "Water", "Mend"]
+        },
+        "soldier":{
+            "actions":["Attack", "Defend"]
+        }
+    },
+    
+    "classes":[
+        {
+            "group": "allrounder",
+            "name": "Peasant",
+            "desc": "A hard working citizen that can do any job decently.",
+            "rank": 3,
+            "atk": 3,
+            "hp": 12,
+            "def": 0,
+            "move": 3
+        },
+        {
+            "group": "farmer",
+            "name": "Farmer",
+            "desc": "Someone who specializes in farming.",
+            "rank": 3,
+            "atk": 3,
+            "hp": 10,
+            "def": 0,
+            "move": 3
+        },
+        {
+            "group": "soldier",
+            "name": "Soldier",
+            "desc": "Someone's gotta protect the crops!",
+            "rank": 3,
+            "atk": 5,
+            "hp": 20,
+            "def": 1,
+            "move": 4
+        },
+        
+        
+        {
+            "group": "allrounder",
+            "name": "All Rounder",
+            "desc": "A hard working citizen that can do any job decently.",
+            "rank": 2,
+            "atk": 5,
+            "hp": 16,
+            "def": 0,
+            "move": 4
+        },
+        {
+            "group": "farmer",
+            "name": "Harvester",
+            "desc": "Someone who specializes in farming.",
+            "rank": 2,
+            "atk": 5,
+            "hp": 12,
+            "def": 0,
+            "move": 4
+        },
+        {
+            "group": "soldier",
+            "name": "Officer",
+            "desc": "Someone's gotta protect the crops!",
+            "rank": 2,
+            "atk": 10,
+            "hp": 30,
+            "def": 2,
+            "move": 5
+        },
+        
+        
+        {
+            "group": "allrounder",
+            "name": "Hero",
+            "desc": "A hard working citizen that can do any job decently.",
+            "rank": 1,
+            "atk": 8,
+            "hp": 20,
+            "def": 1,
+            "move": 5
+        },
+        {
+            "group": "farmer",
+            "name": "Cropsmaster",
+            "desc": "Someone who specializes in farming.",
+            "rank": 1,
+            "atk": 10,
+            "hp": 15,
+            "def": 0,
+            "move": 5
+        },
+        {
+            "group": "soldier",
+            "name": "General",
+            "desc": "Someone's gotta protect the crops!",
+            "rank": 1,
+            "atk": 15,
+            "hp": 40,
+            "def": 3,
+            "move": 6
+        }
+        
+    ],
+    
+    "crops": [
+        {
+            "name": "Potato",
+            "desc": "A brown vegetable.",
+            "cost": 10,
+            "days": 2,
+            "sun": 2,
+            "water": 2,
+            "regrow": false,
+            "rank": 5,
+            "hp": 12,
+            "def": 0
+        },
+        {
+            "name": "Cucumber",
+            "desc": "A green vegetable.",
+            "cost": 15,
+            "days": 2,
+            "sun": 2,
+            "water": 4,
+            "regrow": true,
+            "rank": 5,
+            "hp": 15,
+            "def": 0
+        },
+        {
+            "name": "Tomato",
+            "desc": "A red fruit.",
+            "cost": 15,
+            "days": 2,
+            "sun": 4,
+            "water": 2,
+            "regrow": true,
+            "rank": 5,
+            "hp": 15,
+            "def": 0
+        },
+        {
+            "name": "Cabbage",
+            "desc": "A big green vegetable.",
+            "cost": 35,
+            "days": 4,
+            "sun": 3,
+            "water": 2,
+            "regrow": false,
+            "rank": 4,
+            "hp": 20,
+            "def": 0
+        },
+        {
+            "name": "Pumpkin",
+            "desc": "A big orange vegetable.",
+            "cost": 55,
+            "days": 8,
+            "sun": 8,
+            "water": 10,
+            "regrow": true,
+            "rank": 5,
+            "hp": 30,
+            "def": 1
+        }
+    ]
+}
